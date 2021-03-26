@@ -1,0 +1,47 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: #556;
+    color: #fff;
+}
+
+header{
+    font-size: 15px;
+    line-height: 2;
+}
+
+h1{
+
+   font-size: 50px;
+   text-align: center;
+   line-height: 2;
+}
+p
+{
+    width: 700px;
+    height: 500;
+    float: left;
+    background: rgb(128, 39, 39);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+footer{
+    width: 200px;
+    height: 500;
+    float: left;
+    background: rgb(29, 61, 45);
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+h5{
+width: 200px;
+    height: 500;
+    float: left;
+    background: rgb(29, 61, 45);
+    margin-top: 10px;
+    margin-right: 50px;
+}
