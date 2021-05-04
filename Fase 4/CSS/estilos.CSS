@@ -1,0 +1,85 @@
+
+    
+
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0%;
+}
+
+
+header {
+    padding: 50px;
+    text-align: center;
+    background-color: purple;
+    
+   
+}
+
+
+m
+
+
+aside {
+    flex: 50px;
+    background-color: #f1f1f1;
+    padding: 20px;
+   
+}
+
+section{
+    flex: 50%;
+     background-color: white;
+    padding: 20px;  
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    background-color: white(51, 51, 51);
+}
+
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    content: "";
+   
+    clear: both;
+   
+}
+@media (max-width:600px){
+
+ .contenedor{
+     background-color: blue;
+ }
+  header{
+
+    flex-direction: column;
+    align-items: center;
+
+  } 
+
+
+
+
+
+
+main {
+    flex: 75%;
+    background-color: white;
+    padding: 20px;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background: #ddd;
+}
+
+}

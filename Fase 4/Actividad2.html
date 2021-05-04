@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="Diseño de paginas,unad,educacion">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/estilos.CSS">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1> CSS GRID, </h1>
+        <nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="d-flex">
+                    <div class="dropdown me-1">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset"
+                            data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                            Inicio
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                            <li><a class="dropdown-item" href="Inicio.html">Inicio</a></li>
+
+
+                        </ul>
+                    </div>
+                    <div class="d-flex">
+                        <div class="dropdown me-1">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset"
+                                data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                                Temas
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                <li><a class="dropdown-item" href="Tema1.html">Tema1</a></li>
+                                <li><a class="dropdown-item" href="Tema2.html">Tema2</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary">Recursos Digitales</button>
+                            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                                id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false"
+                                data-bs-reference="parent">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                                <li><a class="dropdown-item" href="Recurso1.html">Recurso1</a></li>
+                                <li><a class="dropdown-item" href="Recurso2.html">Recurso2</a></li>
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary">Aprendizaje</button>
+                            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                                id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false"
+                                data-bs-reference="parent">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                                <li><a class="dropdown-item" href="Actividad1.html">Actividad1</a></li>
+                                <li><a class="dropdown-item" href="Actividad2.html">Actividad2</a></li>
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary">Acerca De</button>
+                            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                                id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false"
+                                data-bs-reference="parent">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                                <li><a class="dropdown-item" href="Autor.html">Autor</a></li>
+
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+            </nav>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <div class="row">
+            <section class="col-8">
+                <article>
+
+                    <p>
+                        Flexbox y CSS Grid son dos módulos de diseño CSS que se han convertido en la tendencia principal
+                        durante los últimos años.
+                        Ambos nos permiten crear diseños complejos que antes sólo eran posibles mediante la aplicación
+                        de trucos con CSS y/o JavaScript.
+                        Flexbox y CSS Grid comparten múltiples similitudes y se pueden resolver muchos diseños con
+                        ambos. Sin embargo, cuándo usarlos, es otra pregunta.
+                        Una frente a dos dimensiones Lo más importante es saber que flexbox es unidimensional, mientras
+                        que CSS Grid es bidimensional. Flexbox establece elementos a lo largo del eje horizontal o
+                        vertical,
+                        lo que te exige a decidir si deseas un diseño basado en filas o en columnas.
+                        El eje transversal flexbox siempre es perpendicular al eje principal.
+                        Un diseño flexible también puede ajustarse en varias filas o columnas y flexbox trata cada fila
+                        o columna como una entidad independiente, en función de su contenido y del espacio disponible.
+                        Por otro lado, CSS Grid te permite trabajar a lo largo de dos ejes: horizontal y verticalmente.
+                        Grid te permite crear diseños bidimensionales en los que puede colocar elementos de cuadrícula
+                        con precisión en celdas definidas por las filas y columnas. Y así es como funciona CSS en la
+                        vida real. De hecho, podemos crear diseños bidimensionales con flexbox (debido a su capacidad de
+                        envoltura) y también diseños unidimensionales con CSS Grid
+                        (debido a su capacidad de colocación automática).
+                        Aunque flexbox en su origen no está concebido para la construcción de cuadrículas, con
+                        frecuencia se utiliza de esa manera. El mejor ejemplo es el sistema de cuadrícula de Bootstrap 4
+                        que se basa en flexbox.
+                        Todos los sitios de Bootstrap 4 que hay por ahí hacen uso de flexbox para lograr diseños
+                        bidimensionales basados en filas y columnas. Y, hay otras populares herramientas como Flexbox
+                        Grid que hacen lo mismo.
+                        (Monus, 2019)
+                    </p>
+                </article>
+                <article>
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLScw6S1AYqRcr2uADRMiNBrUOgXhue6BexCDJCL3L-IqAn5mcw/viewform?embedded=true"
+                        width="640" height="1272" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+                </article>
+            </section>
+            <aside class="col-4">
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=300&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        Giovanny248@hotmail.com <br>
+        Skype: josue8atorres <br>
+        Fecha : 10-03-2021
+    </footer>
+
+
+</body>
